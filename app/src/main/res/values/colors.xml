@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2821F3</color>
+    <color name="colorPrimaryDark">#1008F8</color>
+    <color name="colorAccent">#0F1010</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="lightgrey">#EAE7E7</color>
+    <color name="verylightgrey">#FAF8F8</color>
+    <color name="darkgrey">#373636</color>
+    <color name="blue">#2821F3</color>
+
+
+    <color name="lightblue">#1E39E5</color>
+    <color name="lightpurple">#9311E3</color>
+    <color name="lightgreen">#7CE603</color>
+    <color name="lightpink">#FB4180</color>
+    <color name="lightyellow">#FFEE58</color>
+    <color name="lightred">#F62C28</color>
+    <color name="lightorange">#FA5B06</color>
+    <color name="cream">#FFFDF5</color>
+    <color name="lightcrimson">#5726A6</color>
+
+    // Numbers Activity
+    <color name="lightSkyBlue">#87cefa</color>
+    <color name="transparent">#00000000</color>
+    <color name="orangenumbers">#FF2600</color>
+
+
+    <color name="tile_color">#000000</color>
+    <color name="board_color">#F5B800</color>
+
+
+    <color name="blueviolet">#8A2BE2</color>
+    <color name="gold">#FFD700</color>
+
+
+    // Student home page
+    <color name="indianRed">#CD5C5C</color>
+    <color name="lightCoral">#EA8181</color>
+    <color name="skyBlue">#4CB7FA</color>
+    <color name="lightPink">#D68767</color>
+
+    <color name="pink">#CA2BB5</color>
+    <color name="purple">#A82EF4</color>
+    <color name="blueHome">#4296FB</color>
+
+
+    //Complex puzzle
+    <color name="teal_700">#FF018786</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+
+    //Nouns/Verbs
+    <color name="blueNoun">#0138FD</color>
+    <color name="pinkNoun">#FF367A</color>
+
+    <color name="purpleSS">#86139A</color>
+    <color name="yellowBackSS">#EFB509</color>
+
+    // Maths
+    <color name="purple_700">#FF3700B3</color>
+    <color name="buttonsMaths">#E60F0F</color>
+
+    //Natural Science
+    <color name="naturalScience">#BC8F8F</color>
+
+
+    <color name="lightpink1">#EC6FAD</color>
+    <color name="pink1">#FF0B60</color>
+
+
+
+
+</resources>

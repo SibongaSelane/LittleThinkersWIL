@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deitel.littlethinkers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CreatingSentenceGame"></activity>
+        <activity android:name=".SentencesActivity" />
+        <activity android:name=".SocialScienceActivity" />
+        <activity android:name=".MathActivityGFour" />
+        <activity android:name=".MathActivityGThree" />
+        <activity android:name=".MathActivityGTwo" />
+        <activity android:name=".MathActivityGOne" />
+        <activity android:name=".NaturalScienceActivity" />
+        <activity android:name=".MathsActivity" />
+        <activity android:name=".MenuMathNSActivity" />
+        <activity android:name=".PlayingWithOthersStory" />
+        <activity android:name=".DirectionsStory" />
+        <activity android:name=".HittingOthersStory" />
+        <activity android:name=".SocialStoriesMenu" />
+        <activity android:name=".AngryStory" />
+        <activity android:name=".EmpathyTwo" />
+        <activity android:name=".Empathy" />
+        <activity android:name=".LifeActivities" />
+        <activity android:name=".NounsAct_Activity" />
+        <activity android:name=".LearningNounsActivity" />
+        <activity android:name=".NounsActivity" />
+        <activity android:name=".VerbsAct_Activity" />
+        <activity android:name=".LearningVerbsActivity" />
+        <activity android:name=".VerbsActivity" />
+        <activity android:name=".VerbsNouns.NounsVerbsActivity" />
+        <activity android:name=".LearnLifeSkills" />
+        <activity android:name=".LifeSkillsHome" />
+        <activity android:name=".FrequencyFive" />
+        <activity android:name=".FrequencyFour" />
+        <activity android:name=".FrequencyThree" />
+        <activity android:name=".FrequencyTwo" />
+        <activity android:name=".FrequencyOne" />
+        <activity android:name=".FrequencyGames" />
+        <activity android:name=".Fruit" />
+        <activity android:name=".Vegetables" />
+        <activity android:name=".Animals" />
+        <activity android:name=".Insects" />
+        <activity android:name=".Transportation" />
+        <activity android:name=".ComplexPuzzle.ComplexPuzzlesActivity" />
+        <activity android:name=".ComplexPuzzle.Simpsons.TheSimpsonsPuzzle" />
+        <activity android:name=".ComplexPuzzle.ANTC.AlvinAndTheChipmunksPuzzle" />
+        <activity android:name=".ComplexPuzzle.AdventureTime.AdventureTimePuzzle" />
+        <activity android:name=".ComplexPuzzle.TomAndJerry.TomAndJerryPuzzle" />
+        <activity android:name=".LearningWords" />
+        <activity android:name=".FrequencyHome" />
+        <activity android:name=".LearnAllColours" />
+        <activity android:name=".ColoursLevel5" />
+        <activity android:name=".ColoursLevel4" />
+        <activity android:name=".ColoursLevel3" />
+        <activity android:name=".ColoursLevel2" />
+        <activity android:name=".Colours" />
+        <activity android:name=".LearnColours" />
+        <activity android:name=".ColoursActivity" />
+        <activity android:name=".Frozen.SlidingPuzzleFrozen" />
+        <activity android:name=".PawPatrol.SlidingPuzzlePawPatrol" />
+        <activity android:name=".Princesses.SlidingPuzzlePrincesses" />
+        <activity android:name=".PuzzleMenu" />
+        <activity android:name=".SlidingPuzzles.SlidingPuzzle1" />
+        <activity android:name=".Level4.L4Round3" />
+        <activity android:name=".Level4.L4Round2" />
+        <activity android:name=".Level3.L3Round3" />
+        <activity android:name=".Level3.L3Round2" />
+        <activity android:name=".Level2.L2Round3" />
+        <activity android:name=".Level2.L2Round2" />
+        <activity android:name=".Level1.L1Round3" />
+        <activity android:name=".Level1.L1Round2" />
+        <activity android:name=".TakePicturesActivity" />
+        <activity android:name=".BigNumbers.NumberTwenty" />
+        <activity android:name=".BigNumbers.NumberNineteen" />
+        <activity android:name=".BigNumbers.NumberEighteen" />
+        <activity android:name=".BigNumbers.NumberSeventeen" />
+        <activity android:name=".BigNumbers.NumberSixteen" />
+        <activity android:name=".BigNumbers.NumberFifteen" />
+        <activity android:name=".BigNumbers.NumberFourteen" />
+        <activity android:name=".BigNumbers.NumberThirteen" />
+        <activity android:name=".BigNumbers.NumberTwelve" />
+        <activity android:name=".BigNumbers.NumberEleven" />
+        <activity android:name=".LearningNumbers.SixteenToTwentyNumbers" />
+        <activity android:name=".LearningNumbers.elevenToFifteenNumbers" />
+        <activity android:name=".BigNumbers.NumberTen" />
+        <activity android:name=".BigNumbers.NumberNine" />
+        <activity android:name=".BigNumbers.NumberEight" />
+        <activity android:name=".BigNumbers.NumberSeven" />
+        <activity android:name=".BigNumbers.NumberSix" />
+        <activity android:name=".BigNumbers.NumberFive" />
+        <activity android:name=".BigNumbers.NumberFour" />
+        <activity android:name=".BigNumbers.NumberZero" />
+        <activity android:name=".BigNumbers.NumberThree" />
+        <activity android:name=".BigNumbers.NumberTwo" />
+        <activity android:name=".BigNumbers.NumberOne" />
+        <activity android:name=".LearningNumbers.sixToTenNumbers" />
+        <activity android:name=".LearningNumbers.zeroToSixNumbers" />
+        <activity android:name=".Level4.Level4Activity" />
+        <activity android:name=".Level3.Level3Activity" />
+        <activity android:name=".Level2.Level2Activity" />
+        <activity android:name=".Level1.Level1Activity" />
+        <activity android:name=".ActivityPage" />
+        <activity android:name=".ShapesActivity" />
+        <activity android:name=".NumbersActivity" />
+        <activity android:name=".TeacherHomeActvity" />
+        <activity android:name=".StudentHomeActivity" />
+        <activity android:name=".ParentHomeActivity" />
+        <activity android:name=".StudRegistrationActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".MathsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageHint"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ty" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/emilys_candy"
+                android:gravity="center"
+                android:id="@+id/check"
+                android:text="Click me"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout"
+                android:layout_gravity="center"
+                android:fontFamily="@font/emilys_candy"
+                android:gravity="center"
+                android:text="Math, NS, SS"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:transitionName="logo_text"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+            <LinearLayout
+                android:id="@+id/lo_level2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtUsername"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/emilys_candy"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="If you want to learn numbers, go to the 'Numbers' activity in the Easy-Medium section, from the main screen"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:transitionName="logo_text"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btnMathsB"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Mathematics"
+                    android:layout_marginTop="70dp"
+                    android:background="@color/buttonsMaths"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lo_level4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/buttonsMaths"
+                android:text="Main Menu"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

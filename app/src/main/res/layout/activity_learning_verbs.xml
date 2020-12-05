@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinkNoun"
+    tools:context=".LearningVerbsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="-969dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/worksheet"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BACK"
+                    android:id="@+id/btnBack"
+                    android:background="@color/gold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/hintLayout"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageHint"
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/ty" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/emilys_candy"
+                    android:gravity="center"
+                    android:text="Click me"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="35dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/emilys_candy"
+                    android:text="VERBS"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hintLayout"
+                android:layout_marginTop="25dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgKick"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/kick"
+                        android:textSize="40dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtKick"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:text="KICK "
+                            android:gravity="center"
+                            android:textColor="@color/blue"
+                            android:textSize="25dp"
+                            app:layout_constraintTop_toBottomOf="@+id/button" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:text="the ball"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgfly"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/flying"
+                        android:textSize="40dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtFly"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:text="FLY "
+                            android:gravity="center"
+                            android:textColor="@color/blue"
+                            android:textSize="25dp"
+                            app:layout_constraintTop_toBottomOf="@+id/button" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:text="a kite"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hintLayout"
+                android:layout_marginTop="35dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgRing"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/ring"
+                        android:textSize="40dp" />
+
+                    <LinearLayout
+                        android:id="@+id/txtRing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="RING "
+                            android:textColor="@color/blue"
+                            android:textSize="25dp"
+                            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="the bell"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgDrive"
+                        android:layout_width="100dp"
+                        android:layout_height="95dp"
+                        android:src="@drawable/drive"
+                        android:textSize="40dp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/txtDrive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="DRIVE "
+                            android:textColor="@color/blue"
+                            android:textSize="25dp"
+                            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="a car"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hintLayout"
+                android:layout_marginTop="35dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgStir"
+                        android:layout_width="130dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/stir"
+                        android:textSize="40dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtStir"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:text="STIR "
+                            android:gravity="center"
+                            android:textColor="@color/blue"
+                            android:textSize="25dp"
+                            app:layout_constraintTop_toBottomOf="@+id/button" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:text="the tea"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgTalk"
+                        android:layout_width="130dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/talk"
+                        android:textSize="40dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtTalk"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:text="TALK "
+                            android:gravity="center"
+                            android:textColor="@color/blue"
+                            android:textSize="25dp"
+                            app:layout_constraintTop_toBottomOf="@+id/button" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:text="to a friend"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hintLayout"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgSwim"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/swim"
+                        android:textSize="40dp" />
+
+                    <LinearLayout
+                        android:id="@+id/txtSwim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="SWIM "
+                            android:textColor="@color/blue"
+                            android:textSize="25dp"
+                            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="in a pool"
+                            android:textColor="@color/black"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgRead"
+                        android:layout_width="100dp"
+                        android:layout_height="95dp"
+                        android:src="@drawable/read"
+                        android:textSize="40dp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/txtRead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="READ "
+                            android:textColor="@color/blue"
+                            android:textSize="25dp"
+                            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="a book"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

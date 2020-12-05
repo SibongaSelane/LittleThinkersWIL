@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinkNoun"
+    tools:context=".VerbsActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:fontFamily="@font/emilys_candy"
+            android:layout_gravity="center"
+            android:layout_marginTop="-5dp"
+            android:gravity="center"
+            android:text="Playing with verbs"
+            android:textColor="@android:color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:transitionName="logo_text"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:id="@+id/lo_level1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtUsername"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtUsername"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/btnLearningVerbs"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Learning Verbs"
+                    android:background="@color/gold"
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lo_level2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lo_level1"
+                android:layout_marginTop="45dp"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/btnVerbsActivity"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Verbs activities"
+                    android:background="@color/gold"
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BACK"
+                android:id="@+id/btnBack"
+                android:background="@color/gold"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="250dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
